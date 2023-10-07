@@ -1,0 +1,116 @@
+/* 
+File name: portfolio.css
+Student’s Name: Fatima Khalid
+StudentID: 301272631
+Date: Oct/7/2023 
+*/
+
+/* INDEX PAGE CSS */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding:10px;
+    margin-left: 10px; 
+}
+.header{
+    padding: 10px;
+    font-size: 35px;
+}
+.navbar{
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(135, 135, 135));
+}
+.header {
+    color: white;
+}
+
+#content{
+    padding:100px;
+    min-height: 600px;
+    background-image: url("/images/background.png");
+    background-size:cover;
+}
+.h-statement{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.356);
+    padding:10px;
+}
+.h-overview{
+    padding: 10px;
+    padding-top: 20px;
+}
+
+/* ABOUT ME PAGE CSS */
+#am-content{
+    padding:100px;
+    min-height: 600px;
+    background-image: url("/images/background.png");
+    background-size:cover;
+}
+.am-container {
+    display: flex;
+    align-items: flex-start; 
+}
+
+#headshot {
+    float: left;
+    margin-right: 25px; 
+    margin-left: -30px;
+    width: 200px;
+    border: 10px solid rgba(0, 0, 0, 0.356);
+}
+
+/* PROJECTS & SERVICES CSS */
+#ps-content{
+    padding:100px;
+    min-height: 600px;
+    background-image: url("/images/background.png");
+    background-size:cover;
+}
+.ps-figure-container {
+    text-align: center; 
+}
+  
+.ps-figure-container figure {
+    display: inline-block; 
+    margin-right: 20px; 
+    text-align: left; 
+}
+.ps-figure-container > figure > img {
+    width: 300px;
+    height: 256px;
+    border: 10px solid rgba(0, 0, 0, 0.356);
+}
+.proj {
+    max-width: 350px;
+}
+.ps-figure-container > figure:hover img {
+    transform: scale(2);
+}
+  
+  /* SERVICES CSS */
+.s-figure-container {
+    text-align: center; 
+}
+  
+.s-figure-container figure {
+    display: inline-block; 
+    margin-right: 20px; 
+    text-align: left; 
+}
+.s-figure-container > figure:hover img {
+    transform: scale(1.10);
+}
+
+/* FOOTER CSS */
+.p-footer{
+    text-align: center;
+}
+/* GENERAL CSS */
+p {
+    text-align: justify;
+}

@@ -1,0 +1,23 @@
+<% include partials/header.ejs %>
+
+ <div class="content is-normal" id="ps-content">
+    <h3><%= title %></h3>
+    <p><%= introPara%></p>
+    <div class="ps-figure-container">
+      <figure>
+        <img src="<%= img1%>">
+        <p class="proj"><b><%=paraheader%> One: </b><%= para1%> </p>
+      </figure>
+      <figure>
+        <img src="<%= img2%>">
+        <p class="proj"><b><%=paraheader%> Two: </b><%= para2%> </p>
+      </figure>
+      <figure>
+        <img src="<%= img3%>">
+        <p class="proj"><b><%=paraheader%> Three: </b><%= para3%> </p>
+      </figure>
+    </div>
+  </div>
+</body>
+
+<% include partials/footer.ejs %>

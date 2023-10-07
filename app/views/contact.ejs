@@ -1,0 +1,64 @@
+<% include partials/header.ejs %>
+
+<div class="content is-normal" id="content">
+    <div class="field">
+      <label class="label">First Name</label>
+      <div class="control">
+        <input class="input" type="text" placeholder="Your First Name">
+      </div>
+    </div>
+    
+    <div class="field">
+      <label class="label">Last Name</label>
+      <div class="control">
+        <input class="input" type="text" placeholder="Your Last Name">
+      </div>
+    </div>
+    
+    <div class="field">
+      <label class="label">Email</label>
+      <div class="control">
+        <input class="input" type="email" placeholder="example@domain.com">
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Phone Number (Optional)</label>
+      <div class="control">
+        <input class="input" type="number" placeholder="111-222-3333">
+      </div>
+    </div>
+    
+    <div class="field">
+      <label class="label">Perferred Method of Contact</label>
+      <div class="control">
+        <div class="select">
+          <select>
+            <option>Select dropdown</option>
+            <option>Email</option>
+            <option>Phone</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    
+    <div class="field">
+      <label class="label">Inquiry</label>
+      <div class="control">
+        <textarea class="textarea" placeholder="Please provide details of your service inquiry here..."></textarea>
+      </div>
+    </div>
+    
+    
+    <div class="field is-grouped">
+      <div class="control">
+        <button class="button is-link" style="background-color: black;" >Submit</button>
+      </div>
+      <div class="control">
+        <button class="button is-link is-light" style="color: black;">Cancel</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+<% include partials/footer.ejs %>
